@@ -13,7 +13,7 @@ post_limit: 5
 
 # Footer
 footer_left:  "<i class=\"fa fa-camera\"></i> <a href=\"https://mendhak.com\">mendhak</a>"
-footer_right: "<i class=\"fa fa-code\"></i> <a href=\"https://github.com/mendhak\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_right: "<i class=\"fa fa-code\"></i> <a href=\"https://github.com/mendhak\">Github</a> &nbsp;<i class=\"fab fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
