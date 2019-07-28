@@ -2,26 +2,14 @@
 title: "Mendhak / Code"
 email: 
 description: "Tech and development notes"
-baseurl: ""
-url: "https://127.0.0.1:4000"
+baseurl: "/jekyll-testing"
+url: "https://code.mendhak.com/"
 title_description: ""
 title_image: "https://avatars2.githubusercontent.com/u/746276?s=460&v=4"
 google_analytics: 
-disqus_account: 
 github_repository: https://github.com/mendhak/carte-noire
-addthis_id: 
 post_limit: 5
 
-# Social usernames/URLs
-twitter_username:
-github_username: 
-instagram_username: 
-reddit_username: 
-linkedin_link: 
-google_plus_link: 
-stackoverflow_link: 
-xing_link:
-facebook_link:
 
 # Footer
 footer_left:  "<i class=\"fa fa-camera\"></i> <a href=\"https://mendhak.com\">mendhak</a>"
