@@ -1,11 +1,11 @@
 # Site settings
-title: "Carte Noire"
+title: "Mendhak / Code"
 email: 
-description: "Testing Carte Noire."
-baseurl: "/jekyll-testing"
-url: "https://code.mendhak.com/"
-title_description: "Carte Noire theme, but with social bits disabled."
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+description: "Tech and development notes"
+baseurl: ""
+url: "https://127.0.0.1:4000"
+title_description: ""
+title_image: "https://avatars2.githubusercontent.com/u/746276?s=460&v=4"
 google_analytics: 
 disqus_account: 
 github_repository: https://github.com/mendhak/carte-noire
@@ -24,8 +24,8 @@ xing_link:
 facebook_link:
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_left:  "<i class=\"fa fa-camera\"></i> <a href=\"https://mendhak.com\">mendhak</a>"
+footer_right: "<i class=\"fa fa-code\"></i> <a href=\"https://github.com/mendhak\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown

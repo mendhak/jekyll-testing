@@ -19,13 +19,11 @@ make-smaller-titles: true
                 {{ site.title_description }}
             </div>
 
-            {% include social_links.html %}
           </div>
           <div class="col-md-12 main content-panel">
 
             <div class="articles">
 
-              <h2>Latest Articles</h2>
 
               <ul>
                   {% for post in site.posts limit: site.post_limit %}
