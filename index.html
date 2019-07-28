@@ -1,6 +1,6 @@
 ---
 layout: default
-make-smaller-titles: true
+make-smaller-titles: false
 ---
 
 
@@ -30,12 +30,17 @@ make-smaller-titles: true
 
                       <li>
                           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+                          <div class="excerpt">
+                          <small class="hidden-xs">{% if post.summary %}
+                            {{ post.summary | strip_html | truncatewords:30 }}
+                           {% else %}
+                            {{ post.excerpt | strip_html | truncatewords:30 }}
+                           {% endif %}</small></div>
                       </li>
 
                   {% endfor %}
                   <li>
-                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
+                      <small><i><a href="{{ site.baseurl }}/posts/"><i class="fas fa-angle-double-right"></i>more</a></i></small>
                   </li>
               </ul>
 
