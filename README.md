@@ -4,7 +4,7 @@ A simple Jekyll theme for blogging. Not named after the coffee.
 
 When working locally, use
 
-    jekyll serve --config _config.yml,_debug.yml
+    jekyll serve --config _config.yml,_debug.yml --host 0.0.0.0
 
 
 

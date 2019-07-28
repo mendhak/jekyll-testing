@@ -10,7 +10,10 @@ $linkedin:       #2b77b1;
 $xing:           #006567;
 $google-plus:    #c95644;
 $facebook:       #365899;
-$github:         #f6c2a4;
+$github:         #5aa33b;
+$flickr:         #4493f5;
+$goodreads:      #f0dfc5;
+$gpslogger:      #337ab7;
 $stack-overflow: #c98b3b;
 $instagram:      #cd486b;
 $reddit:         #cee3f8;
@@ -202,6 +205,33 @@ ul {
 
 	.fa-github-alt:hover {
 		color: $github;
+	}
+
+	.fa-flickr:hover {
+		color: $flickr;
+	}
+
+	@-webkit-keyframes flash {
+		0% { opacity: .3; }
+		100% { opacity: 1; }
+	}
+	@keyframes flash {
+		0% { opacity: .3; }
+		100% { opacity: 1; }
+	}
+
+	.fa-camera:hover {
+		opacity: 1;
+		-webkit-animation: flash 1s;
+		animation: flash 1s;
+	}
+
+	.fa-goodreads:hover {
+		color: $goodreads;
+	}
+
+	.fa-satellite:hover {
+		color: $gpslogger;
 	}
 
 	.fa-stack-overflow:hover {
